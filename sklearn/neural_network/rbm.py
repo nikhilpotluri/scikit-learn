@@ -12,6 +12,7 @@ import time
 import numpy as np
 import scipy.sparse as sp
 
+from distutils.core import setup
 from ..base import BaseEstimator
 from ..base import TransformerMixin
 from ..externals.six.moves import xrange
